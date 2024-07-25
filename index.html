@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <div class="logo">
+                <div class="banner-elem">PATHWAYS</div>
+                <img src="unsplash.jpg" alt="">
+                <p>Photo by <a
+                        href="https://unsplash.com/@julie_soul?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Julia
+                        Solonina</a> on <a
+                        href="https://unsplash.com/photos/yellow-and-red-concrete-building-under-clear-blue-sky-ci19YINguoc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="signup">
+            <div class="signup-intro">
+                <h2>Life is too short to be spent in front of a screen.</h2>
+                <h2> It's time for you to see the world.</h2>
+                <h2>Sign up now. Adventure <em>awaits</em>.</h2>
+            </div>
+            <div class="signup-form">
+                <h2>Let's get started!</h2>
+                <form action="" name="form">
+                    <fieldset>
+                        <div class="input-grp">
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" type="text" placeholder="John" required>
+                        </div>
+                        <div class="input-grp">
+                            <label for="last-name">LAST NAME</label>
+                            <input id="last-name" type="text" placeholder="Doe" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="input-grp">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="email@email.com" required>
+                        </div>
+                        <div class="input-grp">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" required
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="input-grp">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                            <span id="password-unequal">*Passwords do not match</span>
+                        </div>
+                        <div class="input-grp">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="signup-finish">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
